@@ -1,0 +1,17 @@
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-ollama>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.0
+langgraph>=0.2.0
+pydantic>=2.0.0
+streamlit>=1.38.0
+pypdf>=4.0.0
+chromadb>=0.5.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# Phase 3: hybrid retrieval (multi-query + BM25 + RRF + cross-encoder rerank)
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
